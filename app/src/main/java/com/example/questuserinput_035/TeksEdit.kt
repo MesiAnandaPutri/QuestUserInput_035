@@ -84,7 +84,6 @@ fun FormDataDiri(modifier: Modifier
             }
         )
 
-
         Divider(
             modifier = Modifier.padding(bottom = dimensionResource(id = R.dimen.padding_medium), top = dimensionResource(
                 id = R.dimen.padding_medium
@@ -92,3 +91,6 @@ fun FormDataDiri(modifier: Modifier
             thickness = dimensionResource(id = R.dimen.divider_tipis),
             color = Color.DarkGray
         )
+
+        Button(
+            modifier = Modifier.fillMaxWidth(fraction = 1f),
