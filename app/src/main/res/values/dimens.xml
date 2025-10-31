@@ -1,5 +1,6 @@
 <resources>
     <dimen name="padding_small">10dp</dimen>
     <dimen name="padding_medium">30dp</dimen>
+    <dimen name="divider_tipis">10dp</dimen>
 
     <resources>
