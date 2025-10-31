@@ -94,3 +94,10 @@ fun FormDataDiri(modifier: Modifier
 
         Button(
             modifier = Modifier.fillMaxWidth(fraction = 1f),
+            enabled = textAlamat.isNotEmpty(),
+            onClick = {
+                nama=textNama
+                jenis=textJK
+                alamat=textAlamat
+            }
+        )
