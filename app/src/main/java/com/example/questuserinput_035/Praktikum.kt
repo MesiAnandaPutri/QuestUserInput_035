@@ -28,3 +28,5 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
     var showDialog by remember { mutableStateOf(false) }
 
+    val gender: List<String> = listOf("Laki-laki", "Perempuan")
+
