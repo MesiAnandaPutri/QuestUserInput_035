@@ -60,3 +60,9 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
         ) {
             Spacer(modifier = Modifier.height(40.dp))
 
+            Text(
+                text = "Form Registrasi",
+                style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
+                modifier = Modifier.padding(bottom = 28.dp)
+            )
+
