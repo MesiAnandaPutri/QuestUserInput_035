@@ -94,3 +94,40 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(12.dp))
 
+            // Row untuk tanggal, RT, RW
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedTextField(
+                    value = textTanggal,
+                    singleLine = true,
+                    shape = RoundedCornerShape(size = 14.dp),
+                    modifier = Modifier.weight(weight = 1.5f),
+                    label = { Text(text = "Tanggal Lahir") },
+                    onValueChange = {
+                        textTanggal = it
+                    }
+                )
+
+                OutlinedTextField(
+                    value = textRT,
+                    singleLine = true,
+                    shape = RoundedCornerShape(size = 14.dp),
+                    modifier = Modifier.weight(weight = 0.7f),
+                    label = { Text(text = "RT") },
+                    onValueChange = {
+                        textRT = it
+                    }
+                )
+
+                OutlinedTextField(
+                    value = textRW,
+                    singleLine = true,
+                    shape = RoundedCornerShape(size = 14.dp),
+                    modifier = Modifier.weight(weight = 0.7f),
+                    label = { Text(text = "RW") },
+                    onValueChange = {
+                        textRW = it
+                    }
+                )
+            }
+
+            Spacer(modifier = Modifier.height(12.dp))
