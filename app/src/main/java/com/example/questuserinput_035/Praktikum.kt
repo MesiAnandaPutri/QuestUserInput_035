@@ -30,3 +30,4 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
 
+    Box(modifier = Modifier.fillMaxSize()) {
