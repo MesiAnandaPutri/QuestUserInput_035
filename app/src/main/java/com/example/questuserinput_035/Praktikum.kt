@@ -170,3 +170,20 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(8.dp))
 
+            // Checkbox
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth()
+            ){
+                Checkbox(
+                    checked = checkSetuju,
+                    onCheckedChange = { checkSetuju = it }
+                )
+                Text(
+                    text = "Saya setuju dengan syarat dan ketentuan yang berlaku",
+                    style = MaterialTheme.typography.bodySmall
+                )
+            }
+
+            Spacer(modifier = Modifier.height(18.dp))
+
