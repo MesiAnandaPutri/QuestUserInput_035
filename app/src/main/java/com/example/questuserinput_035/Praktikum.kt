@@ -80,3 +80,17 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(12.dp))
 
+            // OutlinedTextField 2 - Kota
+            OutlinedTextField(
+                value = textKota,
+                singleLine = true,
+                shape = RoundedCornerShape(size = 14.dp),
+                modifier = Modifier.fillMaxWidth(),
+                label = { Text(text = "Kota Asal") },
+                onValueChange = {
+                    textKota = it
+                }
+            )
+
+            Spacer(modifier = Modifier.height(12.dp))
+
