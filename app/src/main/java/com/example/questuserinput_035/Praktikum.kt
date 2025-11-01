@@ -25,3 +25,6 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
     var textUmur by remember { mutableStateOf("") }
     var textJK by remember { mutableStateOf("") }
     var checkSetuju by remember { mutableStateOf(false) }
+
+    var showDialog by remember { mutableStateOf(false) }
+
