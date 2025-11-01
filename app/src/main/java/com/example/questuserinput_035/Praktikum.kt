@@ -146,3 +146,27 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
+            // Jenis kelamin
+            Row (
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ){
+                gender.forEach { item ->
+                    Row(
+                        modifier = Modifier.selectable(
+                            selected = textJK == item,
+                            onClick = { textJK = item }
+                        ),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        RadioButton(
+                            selected = textJK == item,
+                            onClick = { textJK = item }
+                        )
+                        Text(text = item)
+                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+
