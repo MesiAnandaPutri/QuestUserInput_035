@@ -39,3 +39,15 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
+        Box(
+            modifier = Modifier
+                .padding(horizontal = 24.dp, vertical = 40.dp)
+                .fillMaxWidth()
+                .fillMaxHeight(0.9f)
+                .align(Alignment.Center)
+                .background(
+                    color = Color.White.copy(alpha = 0.55f),
+                    shape = RoundedCornerShape(28.dp)
+                )
+        )
+
