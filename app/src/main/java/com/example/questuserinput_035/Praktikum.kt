@@ -202,3 +202,30 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
                 Text("Submit")
             }
 
+            // Tampilan hasil
+            if (showDialog) {
+                AlertDialog(
+                    onDismissRequest = { showDialog = false },
+                    title = { Text("Berhasil") },
+                    text = {
+                        Column {
+                            Text("Nama : $textNama")
+                            Text("Kota Asal : $textKota")
+                            Text("Tanggal Lahir : $textTanggal")
+                            Text("RT : $textRT")
+                            Text("RW : $textRW")
+                            Text("Umur : $textUmur")
+                        }
+                    },
+                    confirmButton = {
+                        Button(onClick = { showDialog = false }) {
+                            Text("OK")
+                        }
+                    }
+                )
+            }
+
+        }
+    }
+}
+
