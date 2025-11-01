@@ -187,3 +187,18 @@ fun FormRegistrasi(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(18.dp))
 
+            // Tombol Submit
+            Button(
+                onClick = {
+                    showDialog = true
+                },
+                enabled = checkSetuju,
+                shape = RoundedCornerShape(50),
+                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF0D47A1)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(50.dp)
+            ) {
+                Text("Submit")
+            }
+
