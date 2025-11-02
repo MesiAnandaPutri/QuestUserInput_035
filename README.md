@@ -1,5 +1,11 @@
 Tampilan Registrasi
-<img width="368" height="801" alt="Screenshot 2025-11-01 163943" src="https://github.com/user-attachments/assets/a0f4bf90-737e-45f7-8ebc-aa2d423a5435" />
+
+<img width="385" height="829" alt="Screenshot 2025-11-02 135959" src="https://github.com/user-attachments/assets/5f7277ca-dbe7-4fc9-a46c-b6a6da265820" />
+
+Tampilan datepicker
+
+<img width="376" height="814" alt="Screenshot 2025-11-02 140030" src="https://github.com/user-attachments/assets/465a0036-7a99-48ff-80bc-49988db70357" />
 
 Tampilan Berhasil Input data
-<img width="376" height="818" alt="Screenshot 2025-11-01 164008" src="https://github.com/user-attachments/assets/f2842008-8c51-47b5-a52d-ba8f4a5c1815" />
+
+<img width="354" height="813" alt="Screenshot 2025-11-02 140045" src="https://github.com/user-attachments/assets/7404bbdb-1009-4e9a-a0b6-dd944273a968" />
